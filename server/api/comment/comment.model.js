@@ -3,10 +3,10 @@
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-var ThreadSchema = new Schema({
+var CommentSchema = new Schema({
     name: String,
     subject: String,
-    comment: String
+    description: String
 });
 
-module.exports = mongoose.model('Thread', ThreadSchema);
+module.exports = mongoose.model('Comment', CommentSchema);
