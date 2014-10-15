@@ -1,7 +1,7 @@
 'use strict';
 
 var express = require('express');
-var controller = require('./comment.controller');
+var controller = require('./thread.controller');
 
 var router = express.Router();
 
